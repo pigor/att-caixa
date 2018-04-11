@@ -1,0 +1,13 @@
+package br.com.adaptworks.integracao.pizza.pedidos;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(format={"pretty", "html:target/cucumber/pizza"},
+	features={"src/test/resources/br/com/adaptworks/integracao"})
+public class ServicoCardapioIntegracaoTest {
+	
+}
